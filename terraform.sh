@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #to know where the error
-set +x
+set -x
 
 #Declearing Version
-version='1.8.5'
+version='1.9.5'
 
 #Download terraform latest Zip file
  wget https://releases.hashicorp.com/terraform/${version}/terraform_${version}_linux_amd64.zip -O terraform.zip
  
  #unzip the terraform and delete the zip file
- unzip terraform.zip && rm -rf terraform.zip
+ unzip terraform.zip && rm -rf terraform.zip LICENSE.txt
 
  #delete if terraform is present in /usr/local/bin
  rm -rf /usr/local/bin/terraform
