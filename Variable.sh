@@ -11,8 +11,9 @@ echo $A
 echo ${B}	 
 echo "${C}"
 echo ${version}
+echo "i am learning shell"
 
-#to add it into a new line
+#if multiple lines one by one
 
 echo "The Value of A is: $A \
 The Value of B is: $B \ 			
