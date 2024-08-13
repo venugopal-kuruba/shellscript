@@ -10,7 +10,7 @@ version='1.9.5'
  wget https://releases.hashicorp.com/terraform/${version}/terraform_${version}_linux_amd64.zip -O terraform.zip
  
  #unzip the terraform and delete the zip file
- unzip terraform.zip && rm -rf terraform.zip LICENSE.txt
+ unzip terraform.zip && rm -rf terraform.zip
 
  #delete if terraform is present in /usr/local/bin
  rm -rf /usr/local/bin/terraform
