@@ -24,3 +24,4 @@ version=$1
  #To display your variale version
  terraform --version
 
+echo $1
