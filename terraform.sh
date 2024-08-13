@@ -4,7 +4,7 @@
 set -x
 
 #Declearing Version
-version='1.9.5'
+version='1.9.3'
 
 #Download terraform latest Zip file
  wget https://releases.hashicorp.com/terraform/${version}/terraform_${version}_linux_amd64.zip -O terraform.zip
