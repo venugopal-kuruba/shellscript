@@ -7,7 +7,7 @@ rm -rf Terraform*
 wget https://releases.hashicorp.com/terraform/1.9.4/terraform_1.9.4_linux_amd64.zip -O Terraform
 
 #create 10 copies of the Terraform files.
-for I in {1...10}
+for I in {1..10}
 do
 cp Terraform Terraform-$I
 done
