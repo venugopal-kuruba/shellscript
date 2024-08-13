@@ -12,6 +12,7 @@ echo ${B}
 echo "${C}"
 echo ${version}
 echo "i am learning shell"
+echo "are you read to learn?"
 
 #if multiple lines one by one
 
