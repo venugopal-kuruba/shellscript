@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#to know where the error
+set -x
+
 #Declearing Version
 version='1.8.5'
 
