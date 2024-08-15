@@ -2,7 +2,10 @@
 iteams=$@
 echo $iteams
 
-
+for item in iteams
+do
+    echo $item
+done
 #command -v $1 > /dev/null
 
 #if [ $? -eq 0 ]
