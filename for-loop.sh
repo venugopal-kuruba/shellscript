@@ -2,12 +2,12 @@
 iteams=$@
 echo $iteams
 
-for item in iteams
+for item in $iteams
 do
     echo $item
 done
-#command -v $1 > /dev/null
 
+#command -v $1 > /dev/null
 #if [ $? -eq 0 ]
 #then 
  #   echo " $1 is present "
