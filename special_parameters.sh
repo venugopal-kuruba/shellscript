@@ -2,11 +2,11 @@
   
 
 #!/bin/bash
-command -v terraform 
+command -v $1 
 
 if [ $? -eq 0 ]
 then 
-    echo "terraform is present"
+    echo " $1 is present "
 else
-    echo " terraform is not present"
+    echo " $1 is not present "
 fi
