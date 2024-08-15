@@ -2,7 +2,20 @@
   
 
 #!/bin/bash
-command -v $1 
+command -v terraform 
+
+if [ $? -eq 0 ]
+then 
+    echo " terraform is present "
+else
+    echo " terraform is not present "
+fi
+
+echo''
+echo''
+
+# by passing parameters  
+command -v $1 > /dev/null
 
 if [ $? -eq 0 ]
 then 
