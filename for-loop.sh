@@ -37,8 +37,10 @@ done
 
 echo ''
 
+
 # for "$*"
-for item2 in "$*"
+iteams="$*"
+for item2 in $iteams
 do
     #echo $item
     command -v $item2 > /dev/null
