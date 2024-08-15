@@ -33,3 +33,19 @@ do
         echo " $item2 is not present "
     fi
 done
+
+
+echo ''
+
+# for "$*"
+for item2 in "$*"
+do
+    #echo $item
+    command -v $item2 > /dev/null
+    if [ $? -eq 0 ]
+    then 
+        echo " $item2 is present "
+    else
+        echo " $item2 is not present "
+    fi
+done
