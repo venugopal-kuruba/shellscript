@@ -1,6 +1,6 @@
 #!/bin/bash
 iteams=$@
-echo iteams
+echo $iteams
 
 
 #command -v $1 > /dev/null
