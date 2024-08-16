@@ -2,4 +2,4 @@
 2.log file =auth_log.json
 3.coludtrail parsing by jq 
 4.grep and awk
-5.
+5.data operators
