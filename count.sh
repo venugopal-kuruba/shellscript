@@ -1,5 +1,5 @@
 #!/bin/bash 
-set -x
+
 
 echo "$# arguments passed to the script"
 
