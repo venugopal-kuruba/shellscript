@@ -10,9 +10,9 @@ if [ $# -gt 0 ]
      command -v $item > /dev/null
      if [ $? -eq 0 ]
      then 
-        echo " $item2 is present "
+        echo " $item is present "
      else
-        echo " $item2 is not present "
+        echo " $item is not present "
      fi
     done
 else
