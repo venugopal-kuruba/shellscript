@@ -7,12 +7,12 @@ if [ $# -gt 0 ]
  then 
     for item in $@
     do
-        command -v $item > /dev/null
-        if [ $? -eq 0 ]
-            echo "$item is present"
-         else
-            echo "$item is not present"
-        fi
+     if [ $? -eq 0 ]
+     then 
+        echo " $item2 is present "
+     else
+        echo " $item2 is not present "
+     fi
     done
  else
     echo "please enter the arguments"
