@@ -1,4 +1,4 @@
 1.pokeman parssing
 2.log file =auth_log.json
 3.coludtrail parsing by jq 
-4.grep and srd
+4.grep and awk
