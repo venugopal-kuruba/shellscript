@@ -6,7 +6,8 @@ echo "$# arguments passed to the script"
 if [ $# -gt 0 ]
  then 
     for item in $@
-    do
+    do 
+     command -v $item > /dev/null
      if [ $? -eq 0 ]
      then 
         echo " $item2 is present "
@@ -14,6 +15,6 @@ if [ $# -gt 0 ]
         echo " $item2 is not present "
      fi
     done
- else
+else
     echo "please enter the arguments"
 fi   
