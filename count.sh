@@ -1,18 +1,19 @@
-#!/bin/bash
+#!/bin/bash 
+set -x
 
 echo "$# arguments passed to the script"
 
 if [ $# -gt 0 ]
-then 
+ then 
     for item in $@
     do
         command -v $item > /dev/null
         if [ $? -eq 0 ]
             echo "$item is present"
-        else
+         else
             echo "$item is not present"
         fi
     done
-else
+ else
     echo "please enter the arguments"
 fi   
