@@ -9,5 +9,5 @@ cat /tmp/nginx.log | awk -F " " '{print $1,$9,$7}'
 cat /tmp/nginx.log | awk -F " " '{print $1,$9,$7}' | tr " " ","
 
 # i need to rremove the / from yhe data and store in a file (/tmp/dat.csv)
-cat /tmp/nginx.log | awk -F " " '{print $1,$9,$7}' | tr " " "," | tr -d "/" > /tmp/dat.csv
+cat /tmp/nginx.log | awk -F " " '{print $1,$9,$7}' | tr " " "," | tr -d "/" > /tmp/data.csv
 
